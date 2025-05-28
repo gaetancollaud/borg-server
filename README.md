@@ -2,7 +2,7 @@
 
 ### Description
 
-My take on a Borgbackup Server as a Docker container to facilitate the backing up of remote machines using [Borgbackup](https://github.com/borgbackup)
+My take on a Borgbackup Server as a Docker container to facilitate the backing up of remote machines using [Borgbackup](https://github.com/borgbackup). Forked from [grantbevis/borg-server](https://github.com/grantbevis/borg-server).
 
 ### Usage with docker-compose
 
