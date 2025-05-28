@@ -1,0 +1,9 @@
+services:
+  borg-server:
+    restart: always
+    image: ghcr.io/gaetancollaud/borg-server
+    build: .
+    ports:
+      - 2222:22
+    environment:
+      - PUBLIC_KEY=ssh-rsa AAA...
